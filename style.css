@@ -1,0 +1,54 @@
+html {}
+
+body {
+
+    /*background-size: 100%;*/
+    background-color: #252C3F;
+}
+
+.wrap>div {
+    /*border: 1px solid red;*/
+    font-family: Montserrat, sans-serif;
+}
+
+.sandbag {
+    height: 220px;
+}
+
+.head,
+.btn,
+.sandbag {
+    /*width: 400px;*/
+    /*height: 170px;*/
+    text-align: center;
+}
+
+.head {
+    color: white;
+    font-size: 2em;
+    height: 70px;
+}
+
+.img {
+    height: 240px;
+    width: 300px;
+    background-image: url(bg_turtle.jpg);
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+}
+
+.btn input {
+    border-radius: 16px;
+    outline: none;
+    background-color: orange;
+    border-color: orange;
+    padding: 5px 10px;
+}
+
+.wrap {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+}
